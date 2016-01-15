@@ -9,10 +9,10 @@ how to resolve:
 gem install nokogiri
 
 ###Usage
-ruby get_top_250.rb
+#####ruby get_top_250.rb
 
-OR
+####OR
 
 make it executable
-chmod +x get_top_250.rb
-./get_top_250.rb
+#####chmod +x get_top_250.rb
+#####./get_top_250.rb
