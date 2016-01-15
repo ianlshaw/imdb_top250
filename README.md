@@ -13,6 +13,6 @@ gem install nokogiri
 
 ####OR
 
-make it executable
+####make it executable
 #####chmod +x get_top_250.rb
 #####./get_top_250.rb
