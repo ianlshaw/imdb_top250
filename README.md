@@ -6,7 +6,7 @@
 nokogiri
 
 how to resolve:
-gem install nokogiri
+#####gem install nokogiri
 
 ###Usage
 #####ruby get_top_250.rb
