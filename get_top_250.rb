@@ -44,6 +44,8 @@ def get_current_inventory
 end
 
 def compare_inventory_to_top250
+  result = `diff current_top250.lst inventory.lst`
+  puts result
 end
 
 get_top_250
