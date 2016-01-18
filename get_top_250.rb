@@ -56,7 +56,7 @@ end
 
 def compare_inventory_to_top250
   #Compare the two files we've created, by shelling out to bash and using the diff tool
-  result = `diff current_top250.lst inventory.lst | grep '^<' | sed 's/^..//'`
+  result = `diff inventory.lst current_top250.lst | grep '^<' | sed 's/^..//'`
   puts result
 end
 
