@@ -46,6 +46,7 @@ end
 
 def get_current_inventory
   #Get a list of video type files from the #{DOWNLOADS_PATH}
+  #Sed does: truncate path, and remove file type, since we know it's /video anyway
   inventory = `file --mime-type  #{DOWNLOADS_PATH}/*  | grep video  | sed -e 's/\.[^.]*$//' -e 's@.*/@@'`
 
   #Write that to a file named inventory.lst
