@@ -1,18 +1,18 @@
-#IMDB Top 250
+# IMDB Top 250
 
-##You must change the DOWNLOADS_PATH or this won't work, at all.
+## You must change the DOWNLOADS_PATH or this won't work, at all.
 
-###Dependencies
+### Dependencies
 nokogiri
 
 how to resolve:
-#####gem install nokogiri
+##### gem install nokogiri
 
-###Usage
-#####ruby get_top_250.rb
+### Usage
+##### ruby get_top_250.rb
 
-####OR
+#### OR
 
-####make it executable
-#####chmod +x get_top_250.rb
-#####./get_top_250.rb
+#### make it executable
+##### chmod +x get_top_250.rb
+##### ./get_top_250.rb
